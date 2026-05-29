@@ -1,0 +1,13 @@
+.gitignore
+  h_1c1d9501168061 1-3
+---
+{
+  "schema_version": "zax-attestation/1.1.0",
+  "base_commit_sha": "b9ab0f3fb40a4ac6a572bba980e0c9fb54f1beef",
+  "prompts": {},
+  "humans": {
+    "h_1c1d9501168061": {
+      "author": "jihobada@naver.com"
+    }
+  }
+}
