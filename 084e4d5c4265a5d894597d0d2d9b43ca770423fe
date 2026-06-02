@@ -1,0 +1,13 @@
+published/kitakyushu-202307/ktk-media-map.tsv
+  h_1c1d9501168061 1-116
+---
+{
+  "schema_version": "zax-attestation/1.1.0",
+  "base_commit_sha": "084e4d5c4265a5d894597d0d2d9b43ca770423fe",
+  "prompts": {},
+  "humans": {
+    "h_1c1d9501168061": {
+      "author": "jihobada@naver.com"
+    }
+  }
+}
