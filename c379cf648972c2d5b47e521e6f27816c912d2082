@@ -1,0 +1,13 @@
+_tmp/tis_body.html
+  h_1c1d9501168061 1-72
+---
+{
+  "schema_version": "zax-attestation/1.2.0",
+  "base_commit_sha": "c379cf648972c2d5b47e521e6f27816c912d2082",
+  "prompts": {},
+  "humans": {
+    "h_1c1d9501168061": {
+      "author": "jihobada@naver.com"
+    }
+  }
+}
