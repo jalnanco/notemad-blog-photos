@@ -1,0 +1,13 @@
+_tmp/pub-velog.md
+  h_1c1d9501168061 1-53
+---
+{
+  "schema_version": "zax-attestation/1.2.0",
+  "base_commit_sha": "20aedc91c21e88b75907e2863038b835ae49d9ba",
+  "prompts": {},
+  "humans": {
+    "h_1c1d9501168061": {
+      "author": "jihobada@naver.com"
+    }
+  }
+}
