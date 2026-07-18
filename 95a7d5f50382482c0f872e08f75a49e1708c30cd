@@ -1,0 +1,13 @@
+tmp/tistory-254-payload.html
+  h_1c1d9501168061 1-123
+---
+{
+  "schema_version": "zax-attestation/1.2.0",
+  "base_commit_sha": "95a7d5f50382482c0f872e08f75a49e1708c30cd",
+  "prompts": {},
+  "humans": {
+    "h_1c1d9501168061": {
+      "author": "jihobada@naver.com"
+    }
+  }
+}
