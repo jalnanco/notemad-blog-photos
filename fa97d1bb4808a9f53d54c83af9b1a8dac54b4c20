@@ -1,0 +1,13 @@
+_tmp/pub-t3.html
+  h_1c1d9501168061 1-396
+---
+{
+  "schema_version": "zax-attestation/1.2.0",
+  "base_commit_sha": "fa97d1bb4808a9f53d54c83af9b1a8dac54b4c20",
+  "prompts": {},
+  "humans": {
+    "h_1c1d9501168061": {
+      "author": "jihobada@naver.com"
+    }
+  }
+}
