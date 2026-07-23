@@ -1,0 +1,123 @@
+<!--notemad-styled-->
+<style>@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard@latest/dist/web/static/pretendard.min.css');
+.notemad-post{font-family:Pretendard,-apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Malgun Gothic',sans-serif;font-size:17px;line-height:2.0;letter-spacing:-0.01em;color:#24292f;max-width:740px;margin:0 auto;word-break:keep-all;}
+.notemad-post h1,.notemad-post h2{margin:2.6em 0 0.9em;font-size:1.3em;font-weight:700;line-height:1.5;}
+.notemad-post img{max-width:100%;height:auto;border-radius:8px;}
+.notemad-post p{margin:1.5em 0;}
+.notemad-post a{color:#2b6cb0;}
+.notemad-post blockquote{border:0;border-left:3px solid #cbd5e1;background:#f7f9fb;padding:18px 22px;border-radius:0 8px 8px 0;margin:2em 0;color:#3f4a56;}
+.notemad-post blockquote p{margin:0.9em 0;line-height:1.95;}
+.notemad-post blockquote p:first-child{margin-top:0;}
+.notemad-post blockquote p:last-child{margin-bottom:0;}
+.notemad-post table{border-collapse:collapse;width:100%;margin:1.3em 0;font-size:0.95em;border:1px solid #ddd;}
+.notemad-post table th,.notemad-post table td{border:1px solid #ddd;padding:9px 11px;text-align:left;}
+.notemad-post table th{background:#f3f5f7;}
+.notemad-post pre{background:#f3f5f7;border:1px solid #ddd;border-radius:8px;padding:12px 14px;font-size:0.9em;line-height:1.6;overflow-x:auto;white-space:pre-wrap;margin:1.2em 0;}
+.notemad-post iframe{border-radius:8px;max-width:100%;}
+.notemad-post ul,.notemad-post ol{margin:1em 0;padding-left:1.4em;}
+.notemad-post figure{margin:1.6em 0;}
+.notemad-post figcaption{margin-top:8px;font-size:0.88em;color:#6b7280;text-align:center;line-height:1.5;}
+.notemad-toc{border:1px solid #e0e0e0;background:#fafbfc;border-radius:10px;padding:14px 18px;margin:0 0 2em;font-size:0.95em;}
+.notemad-toc b{display:block;margin-bottom:8px;font-size:0.9em;color:#4b5563;}
+.notemad-toc ul{margin:0;padding-left:1.2em;}
+.notemad-toc li{margin:0.25em 0;}
+.notemad-toc a{color:#2b6cb0;text-decoration:none;}
+.notemad-post li{margin:0.4em 0;}
+</style>
+<div class="notemad-post">
+<div class="notemad-toc" style="border:1px solid #e5e7eb;background:#fafbfc;border-radius:10px;padding:16px 20px;margin:0 0 2.4em;">
+<b style="display:block;margin-bottom:10px;font-size:0.95em;color:#4b5563;">이 글의 순서</b>
+<ul style="margin:0;padding-left:1.2em;">
+  <li style="margin:0.35em 0;line-height:1.8;"><a href="#노이즈캔슬링은-소리를-없애는-게-아니라-상쇄시키는-기술이다" style="color:#2b6cb0;text-decoration:none;">노이즈캔슬링은
+소리를 없애는 게 아니라 상쇄시키는 기술이다</a></li>
+  <li style="margin:0.35em 0;line-height:1.8;"><a href="#저주파는-잘-지우고-사람-목소리는-못-지우는-이유" style="color:#2b6cb0;text-decoration:none;">저주파는 잘
+지우고 사람 목소리는 못 지우는 이유</a></li>
+  <li style="margin:0.35em 0;line-height:1.8;"><a href="#외부소리-모드는-노이즈캔슬링과-정반대-방향으로-작동한다" style="color:#2b6cb0;text-decoration:none;">외부소리
+모드는 노이즈캔슬링과 정반대 방향으로 작동한다</a></li>
+  <li style="margin:0.35em 0;line-height:1.8;"><a href="#착용-중-느껴지는-압박감과-화이트노이즈는-실제-기압-변화가-아니다" style="color:#2b6cb0;text-decoration:none;">착용
+중 느껴지는 압박감과 화이트노이즈는 실제 기압 변화가 아니다</a></li>
+  <li style="margin:0.35em 0;line-height:1.8;"><a href="#패시브-차음과-anc는-저주파고주파를-나눠-맡는-보완-관계다" style="color:#2b6cb0;text-decoration:none;">패시브
+차음과 ANC는 저주파·고주파를 나눠 맡는 보완 관계다</a></li>
+</ul>
+</div>
+<p style="margin:1.6em 0;line-height:2.0;font-size:17px;letter-spacing:-0.01em;">지하철에서 노이즈캔슬링 이어폰을 끼면 덜컹거리는 소리는 뭉개지는데
+옆자리 통화 소리나 안내방송은 유독 또렷하게 들린다. 이걸 고장이나 성능
+부족으로 착각하는 사람이 많은데, 사실은 정반대다. 사람 목소리를 못
+지우는 건 노이즈캔슬링이 원래 그렇게 설계됐기 때문이다.</p>
+<h2
+id="노이즈캔슬링은-소리를-없애는-게-아니라-상쇄시키는-기술이다">노이즈캔슬링은
+소리를 없애는 게 아니라 상쇄시키는 기술이다</h2>
+<p style="margin:1.6em 0;line-height:2.0;font-size:17px;letter-spacing:-0.01em;">액티브 노이즈캔슬링(ANC)의 핵심은 소리를 흡수하는 게 아니라 반대
+파형으로 지우는 데 있다. 이어폰에 달린 마이크가 주변 소음을 실시간으로
+포착하면, 내장 프로세서가 그 파형과 정확히 위상이 180도 뒤집힌 신호를
+만들어낸다. 이 반대 파형을 스피커로 재생하면 원래 소음의 마루와 상쇄
+신호의 골이 겹치면서 서로를 지운다. 물리학에서 말하는 상쇄간섭이다.</p>
+<p style="margin:1.6em 0;line-height:2.0;font-size:17px;letter-spacing:-0.01em;">이 과정에서 마이크 위치도 갈린다. 이어폰 바깥쪽 마이크로 소음이 귀에
+닿기 전에 미리 잡아내는 방식을 피드포워드라 부르고, 이어폰 안쪽 마이크로
+실제로 귀에 도달한 소리를 재확인해 보정하는 방식을 피드백이라 부른다.
+요즘 나오는 무선이어폰 대부분은 두 마이크를 같이 쓴다. 바깥 마이크로
+소음을 미리 잡아 반대 파형을 만들고, 안쪽 마이크로 실제 상쇄 결과를
+재확인해 오차를 다시 좁히는 순서를 반복한다.</p>
+<h2 style="margin:2.8em 0 0.9em;font-size:1.3em;font-weight:700;line-height:1.5;" id="저주파는-잘-지우고-사람-목소리는-못-지우는-이유">저주파는 잘
+지우고 사람 목소리는 못 지우는 이유</h2>
+<p style="margin:1.6em 0;line-height:2.0;font-size:17px;letter-spacing:-0.01em;">ANC가 지하철 소음이나 비행기 엔진음처럼 낮고 일정한 소리에는 강하지만
+말소리에는 약한 이유는 처리 속도와 파형의 예측 가능성 때문이다. 낮은
+주파수(대략 1kHz 이하)의 소음은 파장이 길고 시간에 따라 거의 변하지 않아
+프로세서가 몇 마이크로초 안에 반대 파형을 계산해도 오차가 크게 벌어지지
+않는다. 엔진음, 에어컨 소음, 열차 바퀴 마찰음이 여기 해당한다.</p>
+<p style="margin:1.6em 0;line-height:2.0;font-size:17px;letter-spacing:-0.01em;">사람 목소리, 특히 'ㅅ', 'ㅊ' 같은 치찰음은 사정이 다르다. 주파수가
+높고 파장이 짧은 데다 순간적으로 튀는 불규칙한 신호라서 예측이 안
+통한다. 파장이 짧을수록 반대 파형을 만들 때 요구되는 타이밍 정밀도가
+훨씬 촘촘해지는데 처리 지연이 조금만 있어도 상쇄가 어긋나 버린다. 반대
+신호를 만들어도 타이밍이 어긋나서 상쇄가 실패하고, 오히려 잡음처럼
+들리기도 한다. 안전 문제도 겹친다. 주변 사람 목소리나 경적처럼 즉각
+반응해야 하는 소리까지 완벽히 지워버리면 위험하기 때문에 제조사들도 이
+영역을 굳이 억지로 파고들지 않는다.</p>
+<p style="margin:1.6em 0;line-height:2.0;font-size:17px;letter-spacing:-0.01em;">바람 소리도 같은 이유로 골칫거리다. 바람이 마이크에 직접 부딪히면
+규칙적인 파형 대신 난류성 잡음이 생긴다. 예측 가능한 패턴 자체가 없으니
+반대 파형을 계산할 기준점도 사라진다. 실외에서 노이즈캔슬링 이어폰을
+껴도 바람 부는 날은 유독 답답하게 들리는 이유가 이거다. 그래서 상당수
+이어폰이 바람 소리를 감지하면 ANC 강도를 자동으로 낮추거나 아예 꺼버리는
+로직을 따로 넣어둔다.</p>
+<h2
+id="외부소리-모드는-노이즈캔슬링과-정반대-방향으로-작동한다">외부소리
+모드는 노이즈캔슬링과 정반대 방향으로 작동한다</h2>
+<p style="margin:1.6em 0;line-height:2.0;font-size:17px;letter-spacing:-0.01em;">트랜스페런시, 혹은 외부소리 모드라 불리는 기능은 ANC와 하드웨어는
+같지만 신호 처리 방향이 정반대다. ANC가 반대 파형을 만들어 소리를 지우는
+쪽이라면, 이 모드는 같은 마이크로 잡은 외부 소리를 증폭해 그대로 귀
+안으로 흘려보낸다. 이어폰을 빼지 않고도 대화를 하거나 안내방송을 들어야
+할 때, 혹은 횡단보도를 건널 때 켜는 기능이 바로 이거다. ANC와 외부소리
+모드는 같은 마이크·스피커로 정반대 신호를 만드는 두 가지 모드일
+뿐이다.</p>
+<h2
+id="착용-중-느껴지는-압박감과-화이트노이즈는-실제-기압-변화가-아니다">착용
+중 느껴지는 압박감과 화이트노이즈는 실제 기압 변화가 아니다</h2>
+<p style="margin:1.6em 0;line-height:2.0;font-size:17px;letter-spacing:-0.01em;">노이즈캔슬링을 켜면 귀가 먹먹하거나 비행기 이착륙 때처럼 압력이
+걸리는 느낌을 받는 사람이 적지 않다. 이건 실제로 귀 안 기압이 바뀌어서가
+아니다. 첫째 원인은 폐색 효과다. 이어팁으로 귓구멍을 밀폐하면 자기
+목소리나 숨소리 같은 낮은 주파수가 바깥으로 빠져나가지 못하고 귓속에서
+증폭되는데 이게 먹먹함으로 느껴진다. 둘째는 ANC 회로 자체가 완전한
+무음을 만들지 못하고 아주 낮은 수준의 배경 잡음, 이른바 자체 노이즈(self
+noise)를 남긴다는 점이다. 상쇄 과정에서 완벽히 지워지지 않은 잔여 신호가
+미세한 히스 소음으로 남는 경우가 그렇다. 개인차가 커서 예민한 사람은
+장시간 착용 시 두통이나 피로감을 호소하기도 하는데 이럴 땐 ANC 강도를
+낮추거나 적응 모드를 쓰는 게 도움이 된다.</p>
+<h2 style="margin:2.8em 0 0.9em;font-size:1.3em;font-weight:700;line-height:1.5;" id="패시브-차음과-anc는-저주파고주파를-나눠-맡는-보완-관계다">패시브
+차음과 ANC는 저주파·고주파를 나눠 맡는 보완 관계다</h2>
+<p style="margin:1.6em 0;line-height:2.0;font-size:17px;letter-spacing:-0.01em;">이어팁이나 이어컵이 귀를 물리적으로 막아 소리를 차단하는 패시브
+차음은 고주파 소음에 강하고, ANC는 저주파 소음에 강하다. 둘의 강점이
+겹치지 않기 때문에 좋은 무선이어폰일수록 이 둘을 같이 쓴다. 이어팁이
+촘촘하게 귀에 밀착될수록 패시브 차음 성능이 먼저 확보되고, 그 위에 ANC가
+저주파 영역을 추가로 상쇄한다. 그래서 이어팁 사이즈를 자기 귀에 안 맞는
+걸 끼우면 ANC를 아무리 세게 걸어도 차음이 시원치 않다고 느끼기 쉽다.
+노이즈캔슬링 성능을 체감하고 싶다면 액티브 기능보다 이어팁이 귀에 제대로
+밀착되는지부터 확인하는 게 순서다.</p>
+<p style="margin:1.6em 0;line-height:2.0;font-size:17px;letter-spacing:-0.01em;">헤드폰처럼 귀 전체를 감싸는 오버이어 제품을 쓰면 인이어 제품보다
+노이즈캔슬링 체감이 대체로 좋다. 귀를 감싸는 면적이 넓을수록 패시브
+차음이 잡아주는 고주파 대역도 넓어지고, 여기에 ANC가 저주파를 얹으니
+전체 체감 차음이 배로 뛴다. 반대로 이어팁이 헐겁게 들어가는 인이어
+제품은 패시브 차음이 새는 순간 ANC가 아무리 저주파를 잘 지워도 전체
+체감은 떨어진다.</p>
+<p style="margin:1.6em 0;line-height:2.0;font-size:17px;letter-spacing:-0.01em;">갓튀긴 치킨 먹고 싶다.</p>
+
+</div>
