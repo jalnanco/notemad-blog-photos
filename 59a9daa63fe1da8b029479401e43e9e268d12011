@@ -1,0 +1,13 @@
+_tmp/pub-wordpress.html
+  h_1c1d9501168061 1-79
+---
+{
+  "schema_version": "zax-attestation/1.2.0",
+  "base_commit_sha": "59a9daa63fe1da8b029479401e43e9e268d12011",
+  "prompts": {},
+  "humans": {
+    "h_1c1d9501168061": {
+      "author": "jihobada@naver.com"
+    }
+  }
+}
