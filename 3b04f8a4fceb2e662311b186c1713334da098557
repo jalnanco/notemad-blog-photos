@@ -1,0 +1,17 @@
+_tmp/pub-brunch.md
+  h_1c1d9501168061 1-119
+_tmp/pub-postype.md
+  h_1c1d9501168061 1-37
+_tmp/pub-wordpress.md
+  h_1c1d9501168061 1-31
+---
+{
+  "schema_version": "zax-attestation/1.2.0",
+  "base_commit_sha": "3b04f8a4fceb2e662311b186c1713334da098557",
+  "prompts": {},
+  "humans": {
+    "h_1c1d9501168061": {
+      "author": "jihobada@naver.com"
+    }
+  }
+}
